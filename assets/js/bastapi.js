@@ -59,7 +59,6 @@ self.onmessage = async function (event) {
       frequency_penalty: llmSettings.frequency_penalty || 0.0,
       presence_penalty: llmSettings.presence_penalty || 0.0,
       top_p: llmSettings.top_p || 0.9,
-      modalities: ["text"],
       response_format: {"type": "text"},
       seed: 246,
       stream: false,
